@@ -258,6 +258,15 @@ ul > li a {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+  .banner-information{
+    width:425px;
+  }
+  .banner-img{
+    width: 425px;
+  }
+  .toy-story-img{
+    width: fit-content;
+  }
   .we-are-gamer-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
