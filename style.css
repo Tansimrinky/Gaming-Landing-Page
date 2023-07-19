@@ -169,12 +169,41 @@ ul > li a {
   font-weight: 500;
   line-height: 45px; /* 187.5% */
 }
-.unleash{
-  color: #534C64;
-font-size: 32px;
-font-weight: 700;
-line-height: 45px;
+.unleash {
+  color: #534c64;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 45px;
 }
+/* we are gamer ends */
+/* funny video starts */
+.funny-video-info {
+  text-align: center;
+}
+.funny-video {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.funny-video-description {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+}
+.video-container {
+  padding: 0px 240px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.img-description {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+}
+
+/* funny video ends */
 
 @media screen and (max-width: 425px) {
   nav {
@@ -208,9 +237,14 @@ line-height: 45px;
   }
   .we-are-gamer-info {
     text-align: center;
+    padding: 120px;
   }
   .purpose {
     text-align: center;
+  }
+  .funny-video-info {
+    text-align: center;
+    margin-right: -330px;
   }
 }
 
@@ -242,7 +276,7 @@ line-height: 45px;
   .purpose {
     text-align: center;
   }
-  .toy-story-img{
+  .toy-story-img {
     width: 768px;
   }
 }
