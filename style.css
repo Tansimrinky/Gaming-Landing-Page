@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Open+Sans:ital,wght@0,700;0,800;1,400&family=Work+Sans:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Caprasimo", cursive;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+header {
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 40px;
+  width: 86px;
+}
+.logo-title {
+  font-size: 3rem;
+}
+.special-G {
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+  padding-inline-start: 0px;
+  width: 40%;
+}
+ul > li a {
+  text-decoration: none;
+  color: #3c354f;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.follow-us li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.follow-us {
+  height: 36px;
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  color: #3c354f;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 5px;
+}
+.social-media-logo {
+  height: 1rem;
+  width: 1rem;
+  text-align: center;
+  margin: 22px 2.5px;
+}
+.btn-logo {
+  border: none;
+  background-color: none;
+}
+/* banner starts */
+.banner-information {
+  background-image: url("Group 14.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  /* width: 901px; */
+  height: 700px;
+  padding-top: 148px;
+  padding-left: 240px;
+}
+
+.banner-text {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+  height: 11px;
+}
+
+.banner-special {
+  font-size: 95px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-description-1 {
+  display: flex;
+  align-items: center;
+}
+.banner-description-2 {
+  display: flex;
+  align-items: center;
+}
+.banner-description-3 {
+  display: flex;
+  align-items: center;
+}
+.banner-btn {
+  display: inline-flex;
+  margin-left: -11px;
+  padding: 24px 23px;
+  align-items: flex-start;
+  gap: 10px;
+  border: none;
+  border-radius: 48px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.pink-btn {
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+}
+.blue-btn {
+  background: #4ec5f7;
+}
+.banner-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+/* banner ends */
+
+@media screen and (max-width: 425px) {
+  nav {
+    display: block;
+    padding-left: 100px;
+  }
+  ul {
+    display: block;
+    padding-left: 60px;
+    gap: 10px;
+  }
+  .follow-us {
+    width: 200px;
+    height: 56px;
+    margin-left: -53px;
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 0px;
+    margin-top: 10px;
+  }
+  .btn-logo {
+    padding-left: 10px;
+  }
+  .banner-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  ul {
+    padding-right: 10px;
+    width: 60%;
+  }
+  .banner-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
