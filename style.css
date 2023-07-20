@@ -418,9 +418,12 @@ footer {
 /* footer section ends */
 
 @media screen and (max-width: 425px) {
+  body{
+    width: 425px;
+  }
   header {
     display: block;
-    width: 240vw;
+    width: 170vw;
   }
   nav {
     display: block;
@@ -432,7 +435,7 @@ footer {
   }
   ul {
     display: block;
-    padding-left: 463px;
+    padding-left: 300px;
     gap: 10px;
   }
   .follow-us {
@@ -449,24 +452,25 @@ footer {
   }
   .banner-container {
     display: block;
-    width: 100vw;
+  
   }
   .banner-information {
     width: 155vw;
     height: 597px;
     padding-top: 89px;
-    padding-left: 376px;
+    padding-left: 66px;
+    align-items: center;
   }
   .banner-img {
     padding-left: 170px;
-    width: 164vw;
+    width: 94vw;
   }
   .toy-story-img {
-    padding-left: 110px;
+    padding-left: 0px;
     width: 177vw;
   }
   .we-are-gamer-container {
-    padding: 120px;
+    padding: 0px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
@@ -479,11 +483,11 @@ footer {
   }
   .funny-video-info {
     text-align: center;
-    margin-right: -592px;
-    margin-top: -163px;
+    margin-right: -272px;
+    margin-top: -88px;
   }
   .video-container {
-    padding: 0px 311px;
+    padding: 0px 199px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
@@ -491,7 +495,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     align-items: center;
-    padding-left: 154px;
+    padding-left: 28px;
     padding-right: 177px;
     margin: 20px;
   }
@@ -503,7 +507,7 @@ footer {
   .careers-section{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    width: 250%; 
+    width: 176vw; 
   }
   .sponsor-container1{
     display: grid;
@@ -550,7 +554,7 @@ footer {
 @media screen and (min-width: 426px) and (max-width: 768px) {
   header {
     margin-right: -119px;
-    width: 136vw;
+    width: 168vw;
   }
   nav {
     display: flex;
